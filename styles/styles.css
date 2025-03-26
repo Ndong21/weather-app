@@ -1,0 +1,111 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  /* background:red; */
+  display: flex;
+}
+
+.hero {
+  /* background:yellow; */
+  width: 450px;
+  margin-top:40px;
+  margin-left:40px;
+}
+
+.main-body {
+  background:green;
+  flex: 1;
+}
+
+
+.search-bar {
+  margin-bottom:35px;
+}
+
+.search-icon {
+  margin-left:5px;
+  margin-bottom:-6px;
+}
+
+.crosshair {
+  margin-bottom:-6px;
+}
+
+input {
+  width: 80%;
+  border:none;
+  padding:10px;
+}
+
+input::placeholder {
+  color:black;
+  font-weight: 550;
+}
+
+.sun-hero-section {
+  width: 300px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature {
+  font-size: 85px;
+  margin-top:15px;
+  margin-bottom:10px;
+}
+
+.degree-celsius-symbol {
+  font-size: 60px;
+}
+
+.day-time {
+  margin-bottom:50px;
+  margin-left:9px;
+}
+
+.time {
+  letter-spacing: 3px;
+  color:gray;
+}
+
+.cloudy-svg{
+  color:gray;
+  margin-bottom:-5px;
+}
+
+.rain-svg {
+  color:rgb(120, 120, 235);
+  margin-bottom:-5px;
+}
+
+.cloudy-paragraph {
+  margin-bottom: 10px;
+}
+
+.rain-paragraph {
+  margin-bottom: 50px;
+}
+
+.newyork-img {
+  width:350px;
+  border-radius: 25px;
+}
+
+.new-york-text {
+  color:white;
+  margin-top: -80px;
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 25px;
+}

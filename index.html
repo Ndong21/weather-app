@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather-app</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="hero">
+      <div class="search-bar">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314" stroke-width="1"/></svg>
+        <input type="text" placeholder="Search for places...">
+        <svg class="crosshair" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m1 17.931V17h-2v2.931A8.01 8.01 0 0 1 4.069 13H7v-2H4.069A8.01 8.01 0 0 1 11 4.069V7h2V4.069A8.01 8.01 0 0 1 19.931 11H17v2h2.931A8.01 8.01 0 0 1 13 19.931"/></svg>
+      </div>
+      <div class="data">
+        <img class="sun-hero-section" src="pictures/sun.png" alt="weather">
+        <p class="temperature">12<span class="degree-celsius-symbol"><sup>&#8451;</sup></span></p>
+        <p class="day-time">Monday, <span class="time">16:00</span></p>
+      </div>
+      <div class="statistics">
+        <p class="cloudy-paragraph">
+          <svg class="cloudy-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 19q-1.871 0-3.185-1.306Q2 16.39 2 14.517q0-1.719 1.175-3.051t2.921-1.431q.337-2.185 2.01-3.61T12 5q2.502 0 4.251 1.749T18 11v1h.616q1.436.046 2.41 1.055T22 15.5q0 1.471-1.014 2.486Q19.97 19 18.5 19zm0-1h12q1.05 0 1.775-.725T21 15.5t-.725-1.775T18.5 13H17v-2q0-2.075-1.463-3.538T12 6T8.463 7.463T7 11h-.5q-1.45 0-2.475 1.025T3 14.5t1.025 2.475T6.5 18m5.5-6"/></svg>
+          Mostly Cloudy
+        </p>
+        <p class="rain-paragraph">
+          <svg class="rain-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 16h2v5H3zm4-3h2v8H7zm4-3h2v11h-2zm4-3h2v14h-2z"/></svg>
+          Rain - 30%
+        </p>
+        <div class="new-york-overlay">
+          <img class="newyork-img" src="pictures/newyork.png" alt="">
+          <p class="new-york-text">New York, NY, USA</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-body">
+      <div class="top">
+        <div class="filter">
+          <p>Today</p>
+          <p>Week</p>
+        </div>
+        <div class="left-side">
+          <p>&#8451;</p>
+          <p>&#8457;</p>
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

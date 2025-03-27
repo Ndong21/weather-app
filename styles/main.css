@@ -1,0 +1,55 @@
+.main-body {
+  /* background:green; */
+  flex: 1;
+  margin-top:36px;
+  margin-right:40px;
+  margin-left: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  width: 45px;
+  border-radius: 15px;
+}
+
+.filter,
+.left-side {
+  display: flex;
+}
+
+.filter {
+  width:100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  flex: 3;
+  justify-content: right;
+  align-items: center;
+  gap:16px
+}
+
+.main-container-celsius {
+  color:white;
+  background-color: black;
+  width:30px;
+  height: 30px;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.today {
+  color: gray;
+}
+
+.week {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}

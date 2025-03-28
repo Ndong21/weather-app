@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather-app</title>
-  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/main-top.css">
+  <link rel="stylesheet" href="styles/main-middle.css">
+  <link rel="stylesheet" href="styles/main-bottom.css">
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/hero.css">
 </head>
@@ -46,6 +48,79 @@
           <p class="main-container-celsius">&#8451;</p>
           <p>&#8457;</p>
           <img class="profile-pic" src="pictures/profile-pic.webp" alt="profile-picture">
+        </div>
+      </div>
+      <div class="middle">
+        <div class="day">
+          <p>Sun</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path fill="#ffe62e" d="m20.5 59.7l7-7.2c-2.5-.5-4.8-1.5-6.9-2.9zm23-55.4l-7 7.2c2.5.5 4.8 1.5 6.9 2.9zM4.3 43.5l10.1-.1C13 41.3 12 39 11.5 36.5zm55.4-23l-10.1.1c1.3 2.1 2.3 4.4 2.9 6.9zm-55.4 0l7.2 7c.5-2.5 1.5-4.8 2.9-6.9zm55.4 23l-7.2-7c-.5 2.5-1.5 4.8-2.9 6.9zM20.5 4.3l.1 10.1c2.1-1.3 4.4-2.3 6.9-2.9zm23 55.4l-.1-10.1C41.3 51 39 52 36.5 52.5z"/><g fill="#ffce31"><path d="m14.8 44l-4 9.3l9.3-4C18 47.8 16.2 46 14.8 44m34.4-24l4-9.3l-9.2 4c2 1.5 3.8 3.3 5.2 5.3m-37.8 8.3L2 32l9.4 3.7c-.3-1.2-.4-2.4-.4-3.7s.1-2.5.4-3.7m41.2 7.4L62 32l-9.4-3.7c.2 1.2.4 2.5.4 3.7c0 1.3-.1 2.5-.4 3.7M20 14.8l-9.3-4l4 9.3c1.5-2.1 3.3-3.9 5.3-5.3m24 34.4l9.3 4l-4-9.3C47.8 46 46 47.8 44 49.2m-8.3-37.8L32 2l-3.7 9.4c1.2-.2 2.5-.4 3.7-.4s2.5.1 3.7.4m-7.4 41.2L32 62l3.7-9.4c-1.2.3-2.4.4-3.7.4s-2.5-.1-3.7-.4"/><circle cx="32" cy="32" r="19"/></g></svg>
+          <p>15&deg;<span class="flex-item-third-child-text">-4&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Mon</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 512 512"><defs><clipPath id="meteoconsSunHot0"><path fill="none" d="M0 0h512L0 512V0z"/></clipPath><symbol id="meteoconsSunHot1" viewBox="0 0 375 375"><circle cx="187.5" cy="187.5" r="84" fill="none" stroke="#fbbf24" stroke-miterlimit="10" stroke-width="15"/><path fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="15" d="M187.5 57.2V7.5m0 360v-49.7m92.2-222.5l35-35M60.3 314.7l35.1-35.1m0-184.4l-35-35m254.5 254.5l-35.1-35.1M57.2 187.5H7.5m360 0h-49.7"><animateTransform additive="sum" attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="0 187.5 187.5; 45 187.5 187.5"/></path></symbol></defs><g clip-path="url(#meteoconsSunHot0)"><use width="375" height="375" href="#meteoconsSunHot1" transform="translate(68.5 68.5)"/></g><path fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"><animate attributeName="d" calcMode="spline" dur="1s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" values="M197.48,355.79c11.43-12,24.46.42,35.89-11.58s-1.61-24.41,9.82-36.41,24.46.41,35.89-11.59-1.6-24.41,9.82-36.41,24.47.41,35.9-11.59-1.61-24.41,9.82-36.41,24.47.41,35.9-11.59; M195.1,353.28c11.42-12,28.8,4.56,40.23-7.44s-6-28.55,5.47-40.55,28.81,4.55,40.24-7.45-6-28.55,5.48-40.55,28.81,4.55,40.23-7.45-5.95-28.55,5.49-40.55,28.8,4.55,40.23-7.45; M197.48,355.79c11.43-12,24.46.42,35.89-11.58s-1.61-24.41,9.82-36.41,24.46.41,35.89-11.59-1.6-24.41,9.82-36.41,24.47.41,35.9-11.59-1.61-24.41,9.82-36.41,24.47.41,35.9-11.59"/></path><path fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"><animate attributeName="d" begin="-.5s" calcMode="spline" dur="1s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" values="M257.48,355.79c11.43-12,24.46.42,35.89-11.58s-1.61-24.41,9.82-36.41,24.46.41,35.89-11.59-1.6-24.41,9.82-36.41,24.47.41,35.9-11.59-1.61-24.41,9.82-36.41,24.47.41,35.9-11.59; M255.1,353.28c11.42-12,28.8,4.56,40.23-7.44s-5.95-28.55,5.47-40.55,28.81,4.55,40.24-7.45-6-28.55,5.48-40.55,28.81,4.55,40.23-7.45-5.95-28.55,5.49-40.55,28.8,4.55,40.23-7.45; M257.48,355.79c11.43-12,24.46.42,35.89-11.58s-1.61-24.41,9.82-36.41,24.46.41,35.89-11.59-1.6-24.41,9.82-36.41,24.47.41,35.9-11.59-1.61-24.41,9.82-36.41,24.47.41,35.9-11.59"/></path></svg>
+          <p>12&deg; <span class="flex-item-third-child-text">7&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Tue</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 16 16"><g fill="gray"><path d="M7 8a3.5 3.5 0 0 1 3.5 3.555a.5.5 0 0 0 .624.492A1.503 1.503 0 0 1 13 13.5a1.5 1.5 0 0 1-1.5 1.5H3a2 2 0 1 1 .1-3.998a.5.5 0 0 0 .51-.375A3.5 3.5 0 0 1 7 8m4.473 3a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z"/><path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708zm1.734 3.374a2 2 0 1 1 3.296 2.198q.3.423.516.898a3 3 0 1 0-4.84-3.225q.529.017 1.028.129m4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377M14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/></g></svg>
+          <p>9&deg; <span class="flex-item-third-child-text">7&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Wed</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 16 16"><g fill="gray"><path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z"/><path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708zm1.734 3.374a2 2 0 1 1 3.296 2.198q.3.423.516.898a3 3 0 1 0-4.84-3.225q.529.017 1.028.129m4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377M14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/></g></svg>
+          <p>8&deg;<span class="flex-item-third-child-text">-1&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Thu</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 56 56"><path fill="gray" d="M12.262 36.098h29.086c7.43 0 13.172-5.625 13.172-12.82c0-7.29-6-12.75-13.946-12.68c-3-6.047-8.507-9.54-15-9.54c-8.648 0-15.937 6.82-16.617 15.563c-4.547 1.242-7.477 5.063-7.477 9.68c0 5.812 4.36 9.797 10.782 9.797m19.265 11.226l3.047-5.273c.422-.727.188-1.547-.515-1.946c-.703-.421-1.5-.187-1.922.54l-3.094 5.32c-.375.68-.187 1.5.54 1.922a1.43 1.43 0 0 0 1.944-.563m5.438 6.703l6.914-12c.422-.703.21-1.5-.469-1.922c-.656-.398-1.5-.187-1.945.516l-6.867 11.953c-.399.727-.211 1.547.492 1.969c.68.375 1.476.164 1.875-.516m-24.094-6.68l3.047-5.273c.422-.726.211-1.547-.492-1.945c-.727-.422-1.524-.188-1.946.539l-3.07 5.32c-.398.68-.187 1.5.516 1.899a1.403 1.403 0 0 0 1.945-.54m5.438 6.704l6.937-12c.399-.703.188-1.5-.469-1.922a1.4 1.4 0 0 0-1.945.516l-6.89 11.953c-.399.726-.188 1.547.515 1.968c.68.375 1.477.164 1.852-.515"/></svg>
+          <p>5&deg;<span class="flex-item-third-child-text">-2&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Fri</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 25 25"><path fill="#fec735" d="M7.643 2.509a.75.75 0 0 1 .715.783v.01a.75.75 0 1 1-1.499-.068v-.01a.75.75 0 0 1 .784-.715m3.725 1.744a.75.75 0 0 1-.048 1.06l-.007.007a.75.75 0 0 1-1.011-1.108l.007-.007a.75.75 0 0 1 1.06.048m-6.823 6.232a.75.75 0 0 1-.048 1.059l-.008.007a.75.75 0 1 1-1.011-1.108l.007-.007a.75.75 0 0 1 1.06.049M2.755 8.418a.75.75 0 0 0 .068-1.498h-.01a.75.75 0 1 0-.068 1.498zm2.038-3.394a.75.75 0 0 1-1.06-.048l-.006-.007a.75.75 0 0 1 1.108-1.012l.006.008a.75.75 0 0 1-.048 1.06m1.043 2.782a1.565 1.565 0 0 1 2.94-.675q.57-.493 1.227-.872a3.065 3.065 0 1 0-3.763 4.456q.111-.038.222-.072q.21-.656.525-1.256a1.566 1.566 0 0 1-1.15-1.58"/><path fill="#fec735" fill-rule="evenodd" d="M13.861 6.734c3.29 0 6 2.544 6.243 5.777a4.049 4.049 0 0 1-2.129 7.493H8.072a4.049 4.049 0 0 1-.38-8.08a6.26 6.26 0 0 1 6.17-5.19m4.76 6.234c-.008-2.613-2.14-4.734-4.76-4.734A4.76 4.76 0 0 0 9.11 12.7a.75.75 0 0 1-.749.706h-.289a2.549 2.549 0 0 0 0 5.098h9.903a2.549 2.549 0 0 0 1.078-4.86a.75.75 0 0 1-.432-.676" clip-rule="evenodd"/></svg>
+          <p>4&deg;<span class="flex-item-third-child-text">-4&deg;</span></p>
+        </div>
+        <div class="day">
+          <p>Sat</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 72 72"><circle cx="36" cy="36" r="28" fill="#fcea2b" stroke="#fcea2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path fill="#f1b31c" d="M29 62c20.003 0 16.663-52 16.663-52s24.959 7 16.64 35S13.4 62 29 62" opacity="0.4"/><circle cx="26.5" cy="27.5" r="5" fill="#fff"/><circle cx="45.5" cy="27.5" r="5" fill="#fff"/><g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path stroke-width="0.25" d="M34 37h4v2h-4z"/><path fill="none" stroke-width="2" d="M36 64a28 28 0 0 1 0-56m0 0a28 28 0 0 1 0 56"/><path fill="none" stroke-width="2" d="M36 39.5c1.105 0 2.5-.895 2.5-2H34a2 2 0 0 0 2 2m-9.08 6.42s3.705 3.389 9.652 3.771c6.942.314 10.42-3.695 10.42-3.695"/><circle cx="26.5" cy="27.5" r="5" fill="none" stroke-width="2"/><circle cx="45.5" cy="27.5" r="5" fill="none" stroke-width="2"/><circle cx="45.5" cy="27.5" r="5" fill="none"/><circle cx="43.45" cy="27.75" r="1.75" stroke-width="2"/><circle cx="26.5" cy="27.5" r="5" fill="none"/><circle cx="24.25" cy="27.75" r="1.75" stroke-width="2"/></g></svg>
+          <p>3&deg;<span class="flex-item-third-child-text">-3&deg;</span></p>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="title">
+          <p>Today's Highlights</p>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item">
+            <p class="grid-item-title">Uv Index</p>
+            <img class="uv-index-image" src="pictures/sun.png" alt="">
+          </div>
+          <div class="grid-item">
+            <p class="grid-item-title">Wind Status</p>
+            <p> <span class="grid-item-main-value">7.70</span><span>km/h</span></p>
+            <p>SWR</p>
+          </div>
+          <div class="grid-item">
+            <p class="grid-item-title">Sunrise & Sunset</p>
+            <p>6:35 AM <br><span class="sunset-grid-item-subtext">-1m 46s</span></p>
+            <p>5:42 PM <br><span class="sunset-grid-item-subtext">+2m 22s</span></p>
+          </div>
+          <div class="grid-item">
+            <p class="grid-item-title">Humidity</p>
+            <p class="grid-item-main-value">12 <sup><span>%</span></sup></p>
+            <p>Normal</p>
+          </div>
+          <div class="grid-item">
+            <p class="grid-item-title">Visibility</p>
+            <p><span class="grid-item-main-value">5.2</span><span>km</span></p>
+            <p>Average</p>
+          </div>
+          <div class="grid-item">
+            <p class="grid-item-title">Air Quality</p>
+            <p><span class="grid-item-main-value">105</span></p>
+            <p>Unhealthy</p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,40 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: red; */
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 32px;
+  margin: 40px 0 25px 0;
+}
+
+.grid-item-title,
+.flex-item-third-child-text{
+  color: gray;
+}
+
+.grid-item-main-value {
+  font-size: 32px;
+}
+
+.uv-index-image {
+  width: 200px;
+}
+
+.sunset-grid-item-subtext {
+  color: gray;
+  font-size: 14px;
+}
